@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Inter:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #1A1A2E;
+  --plum: #2D1B3D;
+  --gold: #C9963A;
+  --parchment: #F5EDE0;
+  --mauve: #7B4E6B;
+}
+
+html {
+  background-color: var(--navy);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--parchment);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Blog / legal post body */
+.post-body {
+  color: var(--parchment);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  font-weight: 300;
+}
+.post-body h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--parchment);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.01em;
+}
+.post-body h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--parchment);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.post-body h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--gold);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.post-body p { margin-bottom: 1.4rem; opacity: 0.85; }
+.post-body a { color: var(--gold); text-decoration: underline; }
+.post-body ul,
+.post-body ol { margin-bottom: 1.4rem; padding-left: 1.5rem; opacity: 0.85; }
+.post-body ul { list-style: disc; }
+.post-body ol { list-style: decimal; }
+.post-body li { margin-bottom: 0.5rem; }
+.post-body blockquote {
+  border-left: 2px solid var(--gold);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  opacity: 0.8;
+}
+.post-body strong { font-weight: 500; color: var(--parchment); }
+.post-body hr { border-color: var(--mauve); opacity: 0.3; margin: 2.5rem 0; }
+.post-body img { border-radius: 0.25rem; margin: 1.5em 0; }
