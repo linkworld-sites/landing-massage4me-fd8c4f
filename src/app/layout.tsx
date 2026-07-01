@@ -5,14 +5,14 @@ import { CookieConsent } from "@/components/CookieConsent";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Massage4me — Professional Massage Therapy",
+  title: "Massage4me — Professionelle Massagetherapie",
   description:
-    "Book a certified massage therapist today. 500+ vetted therapists, same-day availability, mobile & studio sessions. Made for your body. Timed for your life.",
+    "Jetzt einen zertifizierten Masseur buchen. Gleiche-Tag-Verfügbarkeit, mobil & Studio. Druck, mit Absicht gesetzt. Erleichterung, die bleibt.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body>
         <FunnelTracker />
         <SmoothScroll>{children}</SmoothScroll>

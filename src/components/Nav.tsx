@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { track } from "@/lib/funnel";
 
 const NAV_LINKS = [
-  { href: "/#treatments", label: "Treatments" },
-  { href: "/#about", label: "About" },
+  { href: "/#treatments", label: "Behandlungen" },
+  { href: "/#about", label: "Über mich" },
   { href: "/blog", label: "Journal" },
 ];
 
@@ -53,7 +53,7 @@ export default function Nav() {
 
           <div className="flex items-center gap-4">
             <Link href="/book" onClick={handleBook} className="hidden md:block">
-              <BookCTA>Book a Session</BookCTA>
+              <BookCTA>Session buchen</BookCTA>
             </Link>
             <button
               onClick={() => setOpen(!open)}

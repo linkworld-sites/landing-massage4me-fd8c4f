@@ -7,22 +7,22 @@ import { track } from "@/lib/funnel";
 
 const FEATURED = [
   {
-    name: "Swedish Relaxation",
-    duration: "60 / 90 / 120 min",
-    descriptor: "Long flowing strokes that melt tension and restore the nervous system to calm.",
+    name: "Schwedische Entspannung",
+    duration: "60 / 90 / 120 Min.",
+    descriptor: "Lange, fließende Streichungen, die Verspannungen lösen und das Nervensystem zur Ruhe bringen.",
   },
   {
-    name: "Deep Tissue Therapy",
-    duration: "60 / 90 min",
-    descriptor: "Targeted pressure on chronic tension, knots, and muscle adhesions.",
+    name: "Tiefengewebstherapie",
+    duration: "60 / 90 Min.",
+    descriptor: "Gezielter Druck auf chronische Verspannungen, Knoten und Muskelverwachsungen.",
   },
 ];
 
 const ALL_TREATMENTS = [
-  { name: "Hot Stone Ritual", duration: "90 / 120 min", desc: "Warm basalt stones melt deep tension while infusing restorative heat." },
-  { name: "Sports Recovery", duration: "60 / 90 min", desc: "Compression, stretching and myofascial release to accelerate recovery." },
-  { name: "Pregnancy Massage", duration: "60 / 90 min", desc: "Gentle techniques adapted for expectant mothers — easing back pain and anxiety." },
-  { name: "Aromatherapy", duration: "60 / 90 / 120 min", desc: "Swedish techniques with essential oils to address stress, sleep and mood." },
+  { name: "Hot-Stone-Ritual", duration: "90 / 120 Min.", desc: "Warme Basaltsteine lösen tiefe Verspannungen und schenken regenerierende Wärme." },
+  { name: "Sport-Regeneration", duration: "60 / 90 Min.", desc: "Kompression, Stretching und myofasziale Techniken zur Beschleunigung der Erholung." },
+  { name: "Schwangerschaftsmassage", duration: "60 / 90 Min.", desc: "Sanfte Techniken für werdende Mütter — bei Rückenschmerzen, Schwere und Anspannung." },
+  { name: "Aromatherapie", duration: "60 / 90 / 120 Min.", desc: "Schwedische Massage mit ätherischen Ölen gegen Stress, Schlafprobleme und Stimmungstiefs." },
 ];
 
 export default function Treatments() {
@@ -54,7 +54,7 @@ export default function Treatments() {
               transition={{ duration: prefersReduced ? 0 : 0.7 }}
               className="mb-3 font-heading text-[10px] uppercase tracking-superwide text-gold/70"
             >
-              What we offer
+              Unser Angebot
             </motion.p>
             <motion.h2
               initial={{ opacity: 0, y: prefersReduced ? 0 : 24 }}
@@ -63,9 +63,9 @@ export default function Treatments() {
               transition={{ duration: prefersReduced ? 0 : 0.9, ease: [0.22, 1, 0.36, 1] }}
               className="font-heading text-[clamp(2rem,4.5vw,3.5rem)] font-light leading-tight tracking-[-0.01em] text-parchment"
             >
-              Your treatment,
+              Deine Behandlung,
               <br />
-              your terms.
+              nach deinen Regeln.
             </motion.h2>
           </div>
           <motion.p
@@ -75,8 +75,8 @@ export default function Treatments() {
             transition={{ delay: 0.2, duration: prefersReduced ? 0 : 0.8 }}
             className="max-w-xs font-body text-sm font-light leading-relaxed text-parchment/50"
           >
-            Not a treatment. A recalibration. Every session is shaped around
-            your body, your history, your hour.
+            Keine Behandlung. Eine Neukalibrierung. Jede Session wird auf deinen Körper,
+            deine Geschichte, deine Stunde abgestimmt.
           </motion.p>
         </div>
 
@@ -102,10 +102,10 @@ export default function Treatments() {
             <div className="absolute inset-0 bg-gradient-to-t from-navy/90 via-navy/20 to-transparent" />
             <div className="absolute bottom-0 left-0 p-8">
               <p className="font-heading text-[10px] uppercase tracking-superwide text-gold/70">
-                Signature
+                Signature-Behandlung
               </p>
               <p className="mt-2 font-heading text-2xl font-light text-parchment">
-                Hot Stone Ritual
+                Hot-Stone-Ritual
               </p>
               <p className="mt-1 font-body text-xs text-parchment/50">90 / 120 min</p>
             </div>
@@ -178,7 +178,7 @@ export default function Treatments() {
             onClick={() => track("intent")}
             className="font-body text-sm font-light uppercase tracking-[0.1em] text-gold/70 underline underline-offset-4 transition-colors hover:text-gold"
           >
-            Book your session →
+            Jetzt buchen →
           </Link>
         </motion.div>
       </div>

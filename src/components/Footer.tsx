@@ -1,14 +1,14 @@
 import Link from "next/link";
 
 const NAV = [
-  { href: "/#treatments", label: "Treatments" },
-  { href: "/#about", label: "About" },
+  { href: "/#treatments", label: "Behandlungen" },
+  { href: "/#about", label: "Über mich" },
   { href: "/blog", label: "Journal" },
-  { href: "/book", label: "Book" },
+  { href: "/book", label: "Buchen" },
 ];
 
 const LEGAL = [
-  { href: "/legal/privacy", label: "Privacy" },
+  { href: "/legal/privacy", label: "Datenschutz" },
   { href: "/legal/cookies", label: "Cookies" },
 ];
 
@@ -23,19 +23,19 @@ export default function Footer() {
               Massage<span className="text-parchment/80">4me</span>
             </p>
             <p className="mt-3 text-xs font-body font-light leading-relaxed text-parchment/40 uppercase tracking-[0.08em]">
-              Professional Massage Therapy
+              Professionelle Massagetherapie
             </p>
             <p className="mt-6 text-xs font-body text-parchment/35 leading-relaxed">
-              Mon – Fri 8am – 9pm
+              Mo – Fr 8:00 – 21:00 Uhr
               <br />
-              Sat – Sun 9am – 8pm
+              Sa – So 9:00 – 20:00 Uhr
             </p>
           </div>
 
           {/* Nav */}
           <nav className="flex flex-col gap-3">
             <p className="mb-2 text-xs uppercase tracking-[0.15em] text-gold/70">
-              Navigate
+              Navigation
             </p>
             {NAV.map((l) => (
               <Link
@@ -51,7 +51,7 @@ export default function Footer() {
           {/* Contact + social */}
           <div>
             <p className="mb-2 text-xs uppercase tracking-[0.15em] text-gold/70">
-              Get in touch
+              Kontakt
             </p>
             <p className="mt-3 font-body text-sm font-light text-parchment/50">
               hello@massage4me.com
@@ -60,7 +60,7 @@ export default function Footer() {
               href="/book"
               className="mt-6 inline-block border border-gold/30 px-5 py-2.5 text-xs uppercase tracking-[0.1em] text-parchment/60 transition-colors hover:border-gold hover:text-parchment"
             >
-              Book a Session
+              Session buchen
             </Link>
           </div>
         </div>

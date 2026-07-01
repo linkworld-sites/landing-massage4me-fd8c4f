@@ -17,7 +17,7 @@ export default function Therapists() {
             transition={{ duration: prefersReduced ? 0 : 0.7 }}
             className="mb-3 font-heading text-[10px] uppercase tracking-superwide text-gold/70"
           >
-            The person behind the hands
+            Die Person hinter den Händen
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: prefersReduced ? 0 : 24 }}
@@ -26,9 +26,9 @@ export default function Therapists() {
             transition={{ duration: prefersReduced ? 0 : 0.9, ease: [0.22, 1, 0.36, 1] }}
             className="font-heading text-[clamp(2rem,4.5vw,3.5rem)] font-light leading-tight tracking-[-0.01em] text-parchment"
           >
-            Touch, practiced
+            Berührung, zur
             <br />
-            to its fullest.
+            Vollendung gebracht.
           </motion.h2>
         </div>
 
@@ -71,7 +71,7 @@ export default function Therapists() {
               <div className="absolute left-0 right-0 top-0 h-px bg-gold/40" />
             </div>
             <p className="mt-3 font-heading text-[10px] uppercase tracking-[0.15em] text-parchment/30">
-              Years of experience
+              Jahre Erfahrung
             </p>
           </div>
 
@@ -81,15 +81,15 @@ export default function Therapists() {
               Rene Juschitz
             </h3>
             <p className="mt-1 font-body text-xs font-light uppercase tracking-[0.1em] text-gold/70">
-              Certified Massage Therapist
+              Zertifizierter Massagetherapeut
             </p>
             <p className="mt-1 font-body text-xs font-light text-parchment/40">
-              Deep Tissue · Swedish · Relaxation · Sports Recovery
+              Tiefengewebe · Schwedisch · Entspannung · Sportregeneration
             </p>
 
             <blockquote className="mt-6 border-l border-gold/30 pl-5">
               <p className="font-heading text-base font-light italic leading-relaxed text-parchment/70">
-                &ldquo;I listen with my hands before I listen with my ears.&rdquo;
+                &ldquo;Ich höre mit meinen Händen, bevor ich mit meinen Ohren höre.&rdquo;
               </p>
             </blockquote>
           </div>
@@ -105,9 +105,9 @@ export default function Therapists() {
         >
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             {[
-              { stat: "4.9★", label: "Average rating" },
-              { stat: "12k+", label: "Sessions delivered" },
-              { stat: "Same day", label: "Availability" },
+              { stat: "4,9★", label: "Durchschnittsbewertung" },
+              { stat: "12k+", label: "Durchgeführte Sessions" },
+              { stat: "Gleicher Tag", label: "Verfügbarkeit" },
             ].map((item) => (
               <div key={item.stat}>
                 <p className="font-heading text-[clamp(1.6rem,3vw,2.25rem)] font-light text-gold">

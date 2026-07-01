@@ -5,19 +5,19 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 const QUOTES = [
   {
-    text: "I hadn't realised how much I was carrying until it was gone. They work where stress actually lives.",
+    text: "Ich hatte nicht geahnt, wie viel ich getragen hatte — bis es weg war. Rene arbeitet genau dort, wo der Stress wirklich sitzt.",
     name: "Priya",
   },
   {
-    text: "Not a treatment. A recalibration. I booked same-day on a Tuesday and left a different person.",
+    text: "Keine Behandlung. Eine echte Erholung. Ich habe spontan an einem Dienstag gebucht und bin als anderer Mensch gegangen.",
     name: "James",
   },
   {
-    text: "The therapist remembered exactly what I mentioned last time. That kind of care is rare.",
+    text: "Rene hat sich genau gemerkt, was ich beim letzten Mal erzählt hatte. Diese Sorgfalt ist selten.",
     name: "Aoife",
   },
   {
-    text: "My hour. Entirely mine. I keep coming back because nowhere else gets that right.",
+    text: "Meine Stunde. Ganz für mich. Ich komme immer wieder, weil das anderswo so nicht funktioniert.",
     name: "Daniel",
   },
 ];
@@ -56,7 +56,7 @@ export default function Testimonials() {
           transition={{ duration: prefersReduced ? 0 : 0.7 }}
           className="mb-14 font-heading text-[10px] uppercase tracking-superwide text-gold/60"
         >
-          In their words
+          In ihren Worten
         </motion.p>
 
         {/* Quote */}
@@ -89,7 +89,7 @@ export default function Testimonials() {
             <button
               key={i}
               onClick={() => handleDot(i)}
-              aria-label={`Show testimonial ${i + 1}`}
+              aria-label={`Stimme ${i + 1} anzeigen`}
               className={`h-1 transition-all duration-300 ${
                 i === index
                   ? "w-6 bg-gold"

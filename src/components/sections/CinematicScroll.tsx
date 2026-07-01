@@ -12,24 +12,24 @@ import {
 const SCENES = [
   {
     src: "/images/material.png",
-    alt: "Arrival — a serene studio space, warm candlelight on stone",
-    label: "01 / Arrival",
-    headline: "You step in.",
-    body: "The world outside stays there. Everything slows.",
+    alt: "Ankunft — ruhiger Studioraum, warmes Kerzenlicht auf Stein",
+    label: "01 / Ankunft",
+    headline: "Du kommst an.",
+    body: "Die Welt draußen bleibt draußen. Alles verlangsamt sich.",
   },
   {
     src: "/images/process.png",
-    alt: "Table time — hands working with intention on warm skin",
-    label: "02 / Table time",
-    headline: "We work where stress lives.",
-    body: "Not a technique. A conversation between touch and tissue.",
+    alt: "Die Behandlung — Hände arbeiten mit Absicht auf warmer Haut",
+    label: "02 / Die Behandlung",
+    headline: "Wir arbeiten dort, wo der Stress sitzt.",
+    body: "Keine Technik. Ein Dialog zwischen Berührung und Gewebe.",
   },
   {
     src: "/images/detail.png",
-    alt: "Afterglow — a face in serene profile, eyes closed, at rest",
-    label: "03 / Afterglow",
-    headline: "Your hour. Entirely yours.",
-    body: "You leave different from how you arrived.",
+    alt: "Das Danach — ein Gesicht im Profil, Augen geschlossen, in Ruhe",
+    label: "03 / Das Danach",
+    headline: "Deine Stunde. Ganz dir gehörend.",
+    body: "Du gehst anders, als du gekommen bist.",
   },
 ];
 
@@ -134,7 +134,7 @@ export default function CinematicScroll() {
         {/* Section header — always visible */}
         <div className="absolute left-6 top-24 lg:left-12">
           <p className="font-heading text-[10px] uppercase tracking-superwide text-gold/60">
-            The Experience
+            Das Erlebnis
           </p>
         </div>
 

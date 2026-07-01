@@ -54,18 +54,18 @@ export default function BookingSection() {
           }}
         >
           <p className="mb-8 font-heading text-[10px] uppercase tracking-superwide text-gold/60">
-            Reserve your time
+            Reserviere deine Zeit
           </p>
 
           <h2 className="font-heading text-[clamp(2.5rem,6vw,5rem)] font-light leading-tight tracking-[-0.01em] text-parchment">
-            Your hour
+            Deine Stunde
             <br />
-            is waiting.
+            wartet auf dich.
           </h2>
 
           <p className="mx-auto mt-6 max-w-sm font-body text-sm font-light leading-relaxed text-parchment/50">
-            Same-day availability. Real-time booking. A therapist shaped to
-            your body&rsquo;s needs — not a generic session.
+            Verfügbarkeit noch heute. Echtzeit-Buchung. Eine Session, die sich
+            nach deinem Körper richtet — kein Einheitsangebot.
           </p>
 
           {/* Hairline divider */}
@@ -94,7 +94,7 @@ export default function BookingSection() {
                   }}
                   transition={{ duration: 0.35 }}
                 >
-                  Book Online
+                  Online buchen
                 </motion.span>
               </motion.div>
             </Link>
@@ -115,14 +115,14 @@ export default function BookingSection() {
                 transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
               />
               <span className="relative z-10 font-heading font-light text-parchment/60 hover:text-parchment">
-                Call Us
+                Anrufen
               </span>
             </motion.a>
           </div>
 
           {/* Reassurance micro-copy */}
           <p className="mt-10 font-body text-[11px] font-light uppercase tracking-[0.1em] text-parchment/25">
-            No deposit · Free cancellation 24h before · Mobile & studio
+            Keine Anzahlung · Kostenlose Stornierung 24h vorher · Mobil & Studio
           </p>
         </motion.div>
       </motion.div>

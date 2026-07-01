@@ -67,7 +67,7 @@ export default function Hero() {
           }}
           className="mb-8 font-heading text-[10px] uppercase tracking-superwide text-gold/80"
         >
-          Rene Juschitz · Private Massage Studio
+          Rene Juschitz · Privates Massage-Studio
         </motion.p>
 
         {/* Studio name */}
@@ -97,7 +97,7 @@ export default function Hero() {
           }}
           className="mt-6 font-body text-[clamp(0.9rem,2vw,1.1rem)] font-light leading-relaxed tracking-[0.04em] text-parchment/70"
         >
-          Pressure, placed with intention. Relief that stays.
+          Druck, mit Absicht gesetzt. Erleichterung, die bleibt.
         </motion.p>
 
         {/* CTA */}
@@ -132,7 +132,7 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.35 }}
               >
-                Reserve a Session
+                Session reservieren
               </motion.span>
             </motion.div>
           </Link>

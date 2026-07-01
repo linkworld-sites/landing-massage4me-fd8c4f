@@ -19,14 +19,14 @@ export default function Philosophy() {
           transition={{ duration: prefersReduced ? 0 : 0.8 }}
           className="mb-12 font-heading text-[10px] uppercase tracking-superwide text-gold/60"
         >
-          Our Philosophy
+          Unsere Philosophie
         </motion.p>
 
         {/* Main quote — two lines */}
         <div className="space-y-4">
           {[
-            "Touch is the oldest language.",
-            "We speak it fluently.",
+            "Berührung ist die älteste Sprache.",
+            "Wir sprechen sie fließend.",
           ].map((line, i) => (
             <div key={i} className="overflow-hidden">
               <motion.p
@@ -56,7 +56,7 @@ export default function Philosophy() {
         >
           <div className="h-px w-12 bg-gold/40" />
           <p className="font-body text-sm font-light tracking-[0.06em] text-parchment/50">
-            4.9★ across 12,000+ sessions
+            4,9★ über 12.000+ Sessions
           </p>
         </motion.div>
       </div>
