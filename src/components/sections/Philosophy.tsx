@@ -56,7 +56,7 @@ export default function Philosophy() {
         >
           <div className="h-px w-12 bg-gold/40" />
           <p className="font-body text-sm font-light tracking-[0.06em] text-parchment/50">
-            500+ certified therapists · 4.9★ across 12,000+ sessions
+            4.9★ across 12,000+ sessions
           </p>
         </motion.div>
       </div>

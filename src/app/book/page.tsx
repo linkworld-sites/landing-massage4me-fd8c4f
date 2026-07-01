@@ -84,7 +84,7 @@ export default function BookPage() {
                 {[
                   { icon: "◯", text: "Same-day availability in most areas" },
                   { icon: "◯", text: "Mobile · In-home · Studio sessions" },
-                  { icon: "◯", text: "500+ certified, background-checked therapists" },
+                  { icon: "◯", text: "Your dedicated masseur: Rene Juschitz" },
                   { icon: "◯", text: "Your preferences saved for every future session" },
                 ].map((item) => (
                   <div key={item.text} className="flex items-start gap-3">
