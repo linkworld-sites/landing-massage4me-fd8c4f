@@ -67,7 +67,7 @@ export default function Hero() {
           }}
           className="mb-8 font-heading text-[10px] uppercase tracking-superwide text-gold/80"
         >
-          Professional Massage Therapy
+          Rene Juschitz · Private Massage Studio
         </motion.p>
 
         {/* Studio name */}
@@ -97,7 +97,7 @@ export default function Hero() {
           }}
           className="mt-6 font-body text-[clamp(0.9rem,2vw,1.1rem)] font-light leading-relaxed tracking-[0.04em] text-parchment/70"
         >
-          Made for your body. Timed for your life.
+          Pressure, placed with intention. Relief that stays.
         </motion.p>
 
         {/* CTA */}
@@ -132,7 +132,7 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.35 }}
               >
-                Book a Session
+                Reserve a Session
               </motion.span>
             </motion.div>
           </Link>
