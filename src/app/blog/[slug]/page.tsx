@@ -1,11 +1,28 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { getPost, getPosts } from "@/lib/posts";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import { SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return getPosts().map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getPost(slug);
+  if (!post) return {};
+  return {
+    title: post.title,
+    description: post.description,
+    alternates: { canonical: `/blog/${post.slug}` },
+  };
 }
 
 export default async function BlogPost({
@@ -16,8 +33,23 @@ export default async function BlogPost({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) notFound();
+
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    datePublished: post.date,
+    url: `${SITE_URL}/blog/${post.slug}`,
+    author: { "@type": "Person", name: "Rene Juschitz" },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
       <Nav />
       <main className="min-h-screen bg-navy pt-28 pb-24">
         <div className="mx-auto max-w-2xl px-6 lg:px-12">

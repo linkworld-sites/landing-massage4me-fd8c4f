@@ -79,6 +79,8 @@ Massage4me's rollover membership means unused sessions carry forward — so you 
 
 Same-day appointments are available across most areas. Booking takes under two minutes via the Massage4me app or website — real-time availability, no phone calls, no waiting lists. Our therapists come to you (home, hotel, or office) or you can visit one of our beautifully appointed studios.
 
+Take a look at our full range of [treatments](/#treatments) — including Deep Tissue, Sports Recovery, and Swedish Relaxation — to find the session that matches your presentation.
+
 ---
 
 ## Frequently Asked Questions

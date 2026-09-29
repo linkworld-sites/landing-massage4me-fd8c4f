@@ -3,7 +3,12 @@ import { getPosts } from "@/lib/posts";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-export const metadata = { title: "Journal — Massage4me" };
+export const metadata = {
+  title: "Journal — Massage4me",
+  description:
+    "Ratschläge und Einblicke von Massage4me zu Rückenschmerzen, Stressabbau und therapeutischer Massage.",
+  alternates: { canonical: "/blog" },
+};
 
 export default function BlogIndex() {
   const posts = getPosts();

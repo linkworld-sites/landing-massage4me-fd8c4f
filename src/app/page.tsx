@@ -8,6 +8,10 @@ import Therapists from "@/components/sections/Therapists";
 import Testimonials from "@/components/sections/Testimonials";
 import BookingSection from "@/components/sections/BookingSection";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function Home() {
   return (
     <>

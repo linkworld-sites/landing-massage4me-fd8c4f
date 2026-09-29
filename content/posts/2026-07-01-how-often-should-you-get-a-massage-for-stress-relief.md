@@ -83,6 +83,8 @@ Warm basalt stones melt deep tension through both heat and weight — the heat p
 
 Available in 90 and 120-minute sessions.
 
+See the full range of [treatments](/#treatments) to find the session that matches your stress load.
+
 ## Building a Rhythm That Works for You
 
 The most important frequency is the one you'll actually maintain. A monthly session you reliably keep is worth more than a fortnightly intention you half-fulfil.
