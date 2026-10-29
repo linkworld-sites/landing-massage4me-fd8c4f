@@ -44,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        <script src="https://app.linkworld.ai/api/public/funnel/fd8c4fc9-3ac3-4747-84bc-f06cc2eb5074/pixel.js" async></script>
         <FunnelTracker />
         <SmoothScroll>{children}</SmoothScroll>
         <CookieConsent />
